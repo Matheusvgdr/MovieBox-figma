@@ -17,24 +17,24 @@
 
     <div class="bg-bg-header bg-no-repeat bg-cover pb-[157px]">
 
-        <header class=" text-white px-24 pt-4 flex justify-between">
+        <header class=" text-white px-44 pt-4 flex justify-between">
 
             <div class="flex flex-row items-center gap-6 text-2xl">
 
-                <img src="img/tv.png" alt="">
+                <img src="img/tv.png" class="animate-pulse" alt="">
                 <h2 class="text-2xl">MovieBox</h2>
             </div>
-            <div
-                class="flex flex-row outline outline-offset-2 outline-2 items-center justify-between py-2 px-[10px] w-[525px] rounded-md mt-2">
-                <h2>What do you want you watch?</h2>
+            <div class=" text-white flex flex-row outline outline-offset-2 outline-2 items-center justify-between py-2 px-[10px] w-[525px] rounded-md mt-2">
+
+                <input type="text" placeholder="What do you want you watch?" class="px-[10px] w-[525px] rounded-md bg-transparent outline-none">
                 <i class='bx bx-search '></i>
             </div>
             <div class="flex flex-row items-center gap-9">
                 <h2>Sign in</h2>
-                <img src="img/Menu.png" alt="">
+                <img src="img/Menu.png" class="hover:scale-110 transition ease-linear duration-100 cursor-pointer" alt="">
             </div>
         </header>
-        <main class="text-white mt-28 pl-24">
+        <main class="text-white mt-28 pl-44">
             <h1 class="text-5xl font-bold">John Wick 3 : <br> Parabellum</h1>
             <div class="py-4 flex flex-row gap-3">
                 <img src="img/imdb.png" alt="">
@@ -43,15 +43,14 @@
             <p class="text-sm w-96 mb-4 font-medium">John Wick is on the run after killing a member of the international
                 assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women
                 everywhere.</p>
-            <button
-                class=" flex flex-row gap-2 text-sm uppercase items-center py-2 px-4 bg-[#BE123C] rounded-md font-bold">
+            <button class=" flex flex-row gap-2 text-sm uppercase items-center py-2 px-4 bg-[#BE123C] rounded-md font-bold hover:scale-110 transition ease-linear duration-100">
                 <img src="img/Play.png" alt="">
                 Watch trailer
             </button>
         </main>
     </div>
 
-    <section class="mt-[70px] px-[98px]">
+    <section class="mt-[70px] px-44">
 
         <div class="flex flex-row justify-between items-center">
             <h2 class="font-bold text-4xl">Featured Movie</h2>
@@ -63,80 +62,67 @@
         </div>
 
        
-        <div class="mt-11 flex flex-row gap-20 items-center">
-            <div>
-                <img src="img/p1.png" alt="">
+        <div class="">
 
-                <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2016 - Current</p>
-                <h3 class="text-lg font-bold">Stranger Thing</h3>
-
-                <div class="flex flex-row gap-3 text-xs  py-[14px]">
-                    <img src="img/imdb.png" alt="">
-                    <p class="text-xs font-medium">86 / 100</p>
+            <div class="mt-11 flex flex-row gap-20 items-center">
+                <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                    <img src="img/p1.png" alt="">
+                    <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2016 - Current</p>
+                    <h3 class="text-lg font-bold">Stranger Thing</h3>
+                    <div class="flex flex-row gap-3 text-xs  py-[14px]">
+                        <img src="img/imdb.png" alt="">
+                        <p class="text-xs font-medium">86 / 100</p>
+                    </div>
+                    <p class="text-xs text-zinc-400 font-bold">Action | Adventure | Horror</p>
                 </div>
-
-                <p class="text-xs text-zinc-400 font-bold">Action | Adventure | Horror</p>
-            </div>
-            <div>
-                <img src="img/p2.png" alt="">
-
-                <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2005</p>
-                <h3 class="text-lg font-bold">Batman Begins </h3>
-
-                <div class="flex flex-row gap-3 text-xs  py-[14px]">
-                    <img src="img/imdb.png" alt="">
-                    <p class="text-xs font-medium">82 / 100</p>
+                <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                    <img src="img/p2.png" alt="">
+                    <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2005</p>
+                    <h3 class="text-lg font-bold">Batman Begins </h3>
+                    <div class="flex flex-row gap-3 text-xs  py-[14px]">
+                        <img src="img/imdb.png" alt="">
+                        <p class="text-xs font-medium">82 / 100</p>
+                    </div>
+                    <p class="text-xs text-zinc-400 font-bold">Action | Adventure</p>
                 </div>
-
-                <p class="text-xs text-zinc-400 font-bold">Action | Adventure</p>
-            </div>
-            <div>
-                <img src="img/p3.png" alt="">
-
-                <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2018</p>
-                <h3 class="text-lg font-bold">Spider-Man: Into the ...</h3>
-
-                <div class="flex flex-row gap-3 text-xs  py-[14px]">
-                    <img src="img/imdb.png" alt="">
-                    <p class="text-xs font-medium">84 / 100</p>
+                <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                    <img src="img/p3.png" alt="">
+                    <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2018</p>
+                    <h3 class="text-lg font-bold">Spider-Man: Into...</h3>
+                    <div class="flex flex-row gap-3 text-xs  py-[14px]">
+                        <img src="img/imdb.png" alt="">
+                        <p class="text-xs font-medium">84 / 100</p>
+                    </div>
+                    <p class="text-xs text-zinc-400 font-bold">Animation | Action | Adventure</p>
                 </div>
-
-                <p class="text-xs text-zinc-400 font-bold">Animation | Action | Adventure</p>
-            </div>
-
-            <div>
-                <img src="img/p4.png" alt="">
-
-                <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2017</p>
-                <h3 class="text-lg font-bold">Dunkirk</h3>
-
-                <div class="flex flex-row gap-3 text-xs  py-[14px]">
-                    <img src="img/imdb.png" alt="">
-                    <p class="text-xs font-medium">78 / 100</p>
+                <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                    <img src="img/p4.png" alt="">
+                    <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2017</p>
+                    <h3 class="text-lg font-bold">Dunkirk</h3>
+                    <div class="flex flex-row gap-3 text-xs  py-[14px]">
+                        <img src="img/imdb.png" alt="">
+                        <p class="text-xs font-medium">78 / 100</p>
+                    </div>
+                    <p class="text-xs text-zinc-400 font-bold">Action | History | Drama</p>
                 </div>
-
-                <p class="text-xs text-zinc-400 font-bold">Action | History | Drama</p>
-            </div>
-
-            <div>
-                <img src="img/p5.png" alt="">
-
-                <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
-                <h3 class="text-lg font-bold">Drive my car</h3>
-
-                <div class="flex flex-row gap-3 text-xs  py-[14px]">
-                    <img src="img/imdb.png" alt="">
-                    <p class="text-xs font-medium">80 / 100</p>
+                <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                    <img src="img/p5.png" alt="">
+                    <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
+                    <h3 class="text-lg font-bold">Drive my car</h3>
+                    <div class="flex flex-row gap-3 text-xs  py-[14px]">
+                        <img src="img/imdb.png" alt="">
+                        <p class="text-xs font-medium">80 / 100</p>
+                    </div>
+                    <p class="text-xs text-zinc-400 font-bold">Drama | Fiction </p>
                 </div>
-
-                <p class="text-xs text-zinc-400 font-bold">Drama | Fiction </p>
+            
             </div>
-          
+
         </div>
        
     </section>
 
-    <section class="mt-32 px-[98px]">
+    <section class="mt-32 px-44">
 
         <div class="flex flex-row justify-between items-center">
             <h2 class="font-bold text-4xl">New Arrival</h2>
@@ -149,7 +135,7 @@
 
        
         <div class="mt-11 flex flex-row gap-20 items-center">
-            <div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
                 <img src="img/new1.png" alt="">
 
                 <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021 - Current</p>
@@ -162,7 +148,7 @@
 
                 <p class="text-xs text-zinc-400 font-bold">Action | Adventure | Horror</p>
             </div>
-            <div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
                 <img src="img/new2.png" alt="">
 
                 <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
@@ -175,7 +161,7 @@
 
                 <p class="text-xs text-zinc-400 font-bold">Action | Adventure</p>
             </div>
-            <div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
                 <img src="img/new3.png" alt="">
 
                 <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
@@ -189,7 +175,7 @@
                 <p class="text-xs text-zinc-400 font-bold">Animation | Action | Adventure</p>
             </div>
 
-            <div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
                 <img src="img/new4.png" alt="">
 
                 <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
@@ -203,7 +189,7 @@
                 <p class="text-xs text-zinc-400 font-bold">Action | History | Drama</p>
             </div>
 
-            <div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
                 <img src="img/p5.png" alt="">
 
                 <p class="pt-3 text-xs font-bold text-zinc-400">USA, 2021</p>
@@ -220,6 +206,107 @@
         </div>
        
     </section>
+
+    <section class="mt-32 px-44">
+
+        <div class="flex flex-row justify-between items-center">
+            <h2 class="font-bold text-4xl">Exclusive Videos</h2>
+
+            <div class="flex flex-row items-center text-[#BE123C] text-lg">
+                <a href="">See more</a>
+                <i class="bx bx-chevron-right"></i>
+            </div>
+        </div>
+
+       
+        <div class="mt-11 flex flex-row gap-14 items-center">
+
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                <img src="img/thumb1.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">Lamb (2021) - Trailer</p>
+                
+            </div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                <img src="img/thumb2.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">The Suicide Squad - John Cena Interview</p>
+                
+            </div>
+            <div class="hover:scale-110 transition ease-out duration-[.5s] cursor-pointer">
+                <img src="img/thumb3.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">Will there be a ...</p>
+                
+            </div>
+          
+        </div>
+       
+    </section>
+
+    <section class="mt-32 px-44">
+
+        <div class="flex flex-row justify-between items-center">
+            <h2 class="font-bold text-4xl">Featured Casts</h2>
+
+            <div class="flex flex-row items-center text-[#BE123C] text-lg">
+                <a href="">See more</a>
+                <i class="bx bx-chevron-right"></i>
+            </div>
+        </div>
+
+       
+        <div class="mt-11 flex flex-row gap-24 items-center">
+
+            <div class="text-center">
+                <img src="img/act1.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">Keanu Reeves</p>
+                
+            </div>
+            <div class="text-center">
+                <img src="img/act2.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">Ryan Reynolds</p>
+                
+            </div>
+            <div class="text-center">
+                <img src="img/act3.png" alt="">
+
+                <p class="pt-3 text-lg font-bold">Timothée Chalamet</p>
+                
+            </div>
+
+            <div class="text-center">
+                <img src="img/act4.png" alt="">
+
+                <p class="pt-3 text-lg font-bold"> Chloë Grace Moretz</p>
+                
+            </div>
+          
+        </div>
+       
+    </section>
+
+    <footer class="mt-32 px-44 flex flex-col justify-center items-center">
+
+        <div class="flex flex-row gap-12">
+
+            <i class="bx bxl-instagram-alt text-3xl"></i>
+            <i class="bx bxl-facebook text-3xl"></i>
+            <i class="bx bxl-github text-3xl"></i>
+            <i class="bx bxl-youtube text-3xl"></i>
+            
+        </div>
+
+        <div class="flex flex-row gap-12 pt-9 font-bold">
+            <p>Conditions of use</p>
+            <p>Privacy & Policy</p>
+            <p>Press Room</p>
+        </div>
+
+        <p class="py-9 text-zinc-400 font-bold">&#169; 2022 MovieBox - layout by Adriana Eka Prayudha, code by Matheus Victor G D Ribeiro</p>
+    </footer>
 
 </body>
 
